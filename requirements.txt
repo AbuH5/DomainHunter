@@ -1,7 +1,6 @@
 asyncio
 aiodns
-argparse
-socket
+argparse
 logging
 sys
 time
