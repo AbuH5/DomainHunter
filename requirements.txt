@@ -1,7 +1,6 @@
 asyncio
 aiodns
 argparse
-logging
-time
+logging
 rich
 pyfiglet
