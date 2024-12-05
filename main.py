@@ -1,15 +1,7 @@
-import asyncio
-import aiodns
-import argparse
-import socket
-import logging
-import sys
-import time
+import asyncio, aiodns, argparse, socket, logging, sys,time ,pyfiglet ,os
 from rich.console import Console
 from rich.progress import Progress, BarColumn, TextColumn
-from rich.text import Text
-import pyfiglet
-import os
+from rich.text import Text 
 
 console = Console()
 
@@ -129,6 +121,8 @@ if __name__ == "__main__":
 
     ascii_logo = pyfiglet.figlet_format("DomainHunter", font="slant")
     console.print(f"[bold magenta]{ascii_logo}[/bold magenta]")
+    github_username = "AbuH5"
+    console.print(f"[bold green]Created by GitHub user:[/bold green] {github_username}\n")
 
     # Set event loop policy for Windows platform
     if sys.platform.startswith("win"):
