@@ -1,6 +1,6 @@
-# DomainHunter: High-Performance Subdomain Scanner
+# SubDomainHunter: High-Performance Subdomain Scanner
 
-**DomainHunter** is a powerful tool designed to help security researchers and penetration testers efficiently scan and resolve subdomains for a given domain. It supports high concurrency for faster results and can be configured with custom wordlists. The results can be displayed in the console or saved to a file.
+**SubDomainHunter** is a powerful tool designed to help security researchers and penetration testers efficiently scan and resolve subdomains for a given domain. It supports high concurrency for faster results and can be configured with custom wordlists. The results can be displayed in the console or saved to a file.
 
 ## Features
 
@@ -26,8 +26,8 @@ pip install -r requirements.txt
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/AbuH5/DomainHunter.git
-cd DomainHunter
+git clone https://github.com/AbuH5/SubDomainHunter.git
+cd SubDomainHunter
 ```
 
 2. Run the scanner:
