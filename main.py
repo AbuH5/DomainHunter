@@ -119,7 +119,7 @@ if __name__ == "__main__":
     setup_logging()
     args = parse_arguments()
 
-    ascii_logo = pyfiglet.figlet_format("SubDomainHunter", font="slant")
+    ascii_logo = pyfiglet.figlet_format("\nSubDomain\n              Hunter", font="slant")
     console.print(f"[bold magenta]{ascii_logo}[/bold magenta]")
     github_username = "AbuH5"
     console.print(f"[bold green]Created by GitHub user:[/bold green] {github_username}\n")
